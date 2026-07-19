@@ -1,15 +1,11 @@
-# Intelligent ECG Analysis and Clinical Decision Support System
-
 ## Research Questions (RQ)
-*   **RQ1:** How can digital signal processing algorithms be optimized to remove baseline wander and powerline interference without distorting clinical features (such as P-wave and ST-segment)?
-*   **RQ2:** What is the optimal neural network architecture (e.g., 1D-CNN or Hybrid CNN-LSTM) to classify cardiac arrhythmias with high accuracy and reliability using benchmark datasets?
-*   **RQ3:** How can Explainable AI (XAI) frameworks be integrated into the system to make classification decisions transparent and clinically justifiable for cardiologists?
-*   **RQ4:** What is the clinical impact of the proposed intelligent system in reducing false alarm rates and supporting real-time clinical decision-making?
-
----
+* **RQ1:** To what extent can adaptive digital filters reduce electromyographic noise and powerline interference without distorting the critical morphological features (P-wave, QRS complex, T-wave) of the ECG signal?
+* **RQ2:** What deep neural network architecture provides the highest efficiency and accuracy for real-time multi-class arrhythmia detection?
+* **RQ3:** How can Explainable AI (XAI) techniques bridge the gap between deep learning complexity and clinical trust for automated cardiac diagnostic decisions?
+* **RQ4:** What is the clinical impact of integrating this decision support system on minimizing false alarm rates within intensive care units?
 
 ## Research Objectives (RO)
-*   **RO1:** To design and implement an advanced preprocessing stage utilizing adaptive digital filters for ECG denoising.
-*   **RO2:** To develop and train a deep learning classifier for multi-class arrhythmia detection and critical cardiac event recognition.
-*   **RO3:** To implement Explainable AI techniques (e.g., Grad-CAM or SHAP) to visually highlight the diagnostic features influencing the model's predictions.
-*   **RO4:** To develop a clinical decision support interface that streamlines real-time monitoring, anomaly alerts, and automated reporting.
+* **RO1:** To design and implement an advanced preprocessing stage utilizing adaptive digital filters for ECG denoising while preserving anatomical signal features.
+* **RO2:** To develop and train a deep learning classifier (e.g., 1D-CNN or Transformers) for multi-class arrhythmia detection using validated global datasets (e.g., MIT-BIH).
+* **RO3:** To implement Explainable AI techniques (e.g., Grad-CAM or SHAP) to visually highlight the diagnostic features influencing the model's predictions for clinicians.
+* **RO4:** To develop a clinical decision support interface (Dashboard) that streamlines real-time monitoring, anomaly alerts, and automated reporting.
